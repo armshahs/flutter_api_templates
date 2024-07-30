@@ -63,7 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         fontWeight: FontWeight.bold),
                                   ),
                                   Text(postList[index].title.toString()),
-                                  SizedBox(
+                                  const SizedBox(
                                     height: 5,
                                   ),
                                   const Text(
@@ -73,7 +73,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         fontWeight: FontWeight.bold),
                                   ),
                                   Text(postList[index].body.toString()),
-                                  SizedBox(
+                                  const SizedBox(
                                     height: 5,
                                   ),
                                 ],
