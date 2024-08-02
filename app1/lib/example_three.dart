@@ -73,6 +73,13 @@ class _ExampleThreeState extends State<ExampleThree> {
                                       value: snapshot
                                           .data![index].address!.geo!.lat
                                           .toString()),
+                                  ReusableRow(
+                                      title: 'geo:  ',
+                                      value: userList[index]
+                                          .address!
+                                          .geo!
+                                          .lat
+                                          .toString()),
                                 ],
                               ),
                             ),
